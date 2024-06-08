@@ -13,7 +13,6 @@ const VideoPage = () => {
   const handleSearch = (e) => {
     setSearchQuery(e.target.value);
   };
-
   const [subjects, setSubjects] = useState([]);
 
   const filteredSubjects = subjects.filter((subject) =>
@@ -79,9 +78,9 @@ const VideoPage = () => {
             <div className="bg-slate-700 border-0 rounded-xl flex flex-wrap">
               {VideoData[subjectName]["links"].map((link, index) => (
                 <div className="m-6" key={index}>
-                  <div className="border border-gray-300 rounded p-2">
+                  <div className="shadow-lg p-2 rounded transition-shadow duration-300 hover:shadow-2xl hover:shadow-purple-500/50">
                     <iframe
-                      className="transition duration-200 hover:scale-105"
+                      className="transition-transform duration-300 hover:scale-105"
                       width="360"
                       height="215"
                       src={link.url}

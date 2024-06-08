@@ -11,7 +11,7 @@
     "Subject Code": "CS001009",
     "links": [
       { "url": "https://www.youtube.com/embed/7wnove7K-ZQ?si=pfE8vpiUTbpkNog7", "label": "Introduction to python-Full course" },
-      { "url": "https://www.youtube.com/embed/KSiRzuSx120?si=TJ13vyYOO95tINWv", "label": "Magic Methods & Dunder - Advanced Python Tutorial" },
+      { "url": "https://www.youtube.com/embed/KSiRzuSx120?si=TJ13vyYOO95tINWv", "label": "Magic Methods & Dunder-Advanced Python Tutorial" },
       { "url": "https://www.youtube.com/embed/KSiRzuSx120", "label": "Decorators - Advanced Python Tutorial" }
     ]
   },
@@ -22,5 +22,5 @@
       { "url": "https://www.youtube.com/embed/YCBMSg9Ogx8?si=Jsmt8NSHHScU3ZnJ", "label": "Data Mining Functionalities" },
       { "url": "https://www.youtube.com/embed/NntemRFHvBg?si=BtH-SHAQ1jxq4PMk", "label": "Interestingness Of Patterns in Data Mining" }
     ]
-  }
+  }   
 }
